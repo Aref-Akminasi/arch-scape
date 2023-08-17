@@ -30,28 +30,28 @@
           <!-- Item 1 -->
           <a
             href="#"
-            class="py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray"
+            class="text-xs py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray"
             >Home</a
           >
 
           <!-- Item 2 -->
           <a
             href="#"
-            class="py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
+            class="text-xs py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
             >Projects</a
           >
 
           <!-- Item 3 -->
           <a
             href="#"
-            class="py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
+            class="text-xs py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
             >About</a
           >
 
           <!-- Item 4 -->
           <a
             href="#"
-            class="py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
+            class="text-xs py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
             >Contact</a
           >
         </div>
@@ -63,13 +63,12 @@
       <div class="flex flex-col container mx-auto lg:flex-row px-6">
         <!-- Info container -->
         <div class="w-1/2 flex flex-col justify-center space-y-16 pt-24 mb-6">
-          <p class="text-6xl font-light text-medGray">
+          <h1 class="text-4xl font-light text-medGray md:text-5xl lg:text-6xl">
             Project <br /><span
               id="project-name"
               class="font-bold text-darkGray capitalize"
-              >Lorum ipsum</span
-            >
-          </p>
+            ></span>
+          </h1>
           <!-- Buttons container -->
           <div class="flex space-x-4">
             <button
@@ -103,13 +102,59 @@
           <a
             id="view-project"
             href="#"
-            class="absolute space-x-4 left-0 bottom-0 bg-lightGray py-8 pr-8 pl-4 uppercase text-darkGray tracking-verywide text-xs hover:bg-hoverGray duration-300"
+            class="absolute left-0 bottom-0 bg-lightGray py-8 pr-8 pl-4 uppercase text-darkGray tracking-verywide text-xs hover:bg-hoverGray duration-300"
             >View project
             <img
               src="images/elements/arrow-right.svg"
               alt=""
               class="inline ml-4"
           /></a>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section class="mt-56">
+      <div class="container mx-auto">
+        <!-- Smaller container -->
+        <div class="relative max-w-6xl mx-auto">
+          <!-- bg container -->
+          <div class="absolute inset-x-0 bg-containerBgGray h-5/6 -z-10"></div>
+          <!-- Content container -->
+          <div
+            class="flex flex-col-reverse items-center lg:flex-row justify-between p-8 lg:items-start"
+          >
+            <!-- Img container -->
+            <div class="grid grid-cols-2 gap-8 mt-16 lg:w-1/2 lg:mt-0">
+              <img src="images/home/about-1.png" alt="" />
+              <img
+                src="images/home/about-3.png"
+                alt=""
+                class="row-span-2 self-center"
+              />
+              <img src="images/home/about-2.png" alt="" />
+            </div>
+            <!-- Text container -->
+            <div class="">
+              <h2 class="text-6xl font-light text-medGray">About</h2>
+              <p class="text-darkGray font-light max-w-md mt-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium esse ducimus, cumque distinctio ab quidem dolorum
+                rerum at inventore similique, aperiam quo odio exercitationem.
+                Quisquam asperiores mollitia atque quaerat, iure quam corrupti
+                officia rem nam?
+              </p>
+              <!-- Button -->
+              <a
+                href="#"
+                class="inline-block mt-8 bg-lightGray py-8 pr-8 pl-4 uppercase text-darkGray tracking-verywide text-xs hover:bg-hoverGray duration-300"
+                >Read more
+                <img
+                  src="images/elements/arrow-right.svg"
+                  alt=""
+                  class="inline ml-4"
+              /></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
