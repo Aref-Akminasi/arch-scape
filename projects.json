@@ -1,0 +1,42 @@
+[
+  {
+    "name": "buildscope",
+    "images": [
+      "./images/projects/buildscope/1.jpg",
+      "./images/projects/buildscope/2.jpg",
+      "./images/projects/buildscope/3.jpg"
+    ]
+  },
+  {
+    "name": "ecomoda",
+    "images": [
+      "./images/projects/ecomoda/1.jpg",
+      "./images/projects/ecomoda/2.jpg",
+      "./images/projects/ecomoda/3.jpg"
+    ]
+  },
+  {
+    "name": "horizon",
+    "images": [
+      "./images/projects/horizon/1.jpg",
+      "./images/projects/horizon/2.jpg",
+      "./images/projects/horizon/3.jpg"
+    ]
+  },
+  {
+    "name": "sculpterra",
+    "images": [
+      "./images/projects/sculpterra/1.jpg",
+      "./images/projects/sculpterra/2.jpg",
+      "./images/projects/sculpterra/3.jpg"
+    ]
+  },
+  {
+    "name": "urbanplus",
+    "images": [
+      "./images/projects/urbanplus/1.jpg",
+      "./images/projects/urbanplus/2.jpg",
+      "./images/projects/urbanplus/3.jpg"
+    ]
+  }
+]

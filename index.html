@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="images/x-icon" href="./images/icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/index.js" defer></script>
+    <title>Arch Scape</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav>
+      <!-- Container -->
+      <div
+        class="container mx-auto flex justify-between bg-white sticky p-6 py-8"
+      >
+        <!-- Logo container -->
+        <div>
+          <img src="./images/logo.svg" alt="logo" class="h-20" />
+        </div>
+        <!-- Menu container -->
+        <div class="hidden lg:flex space-x-12 items-center">
+          <!-- Item 1 -->
+          <a
+            href="#"
+            class="py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray"
+            >Home</a
+          >
+
+          <!-- Item 2 -->
+          <a
+            href="#"
+            class="py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >Projects</a
+          >
+
+          <!-- Item 3 -->
+          <a
+            href="#"
+            class="py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >About</a
+          >
+
+          <!-- Item 4 -->
+          <a
+            href="#"
+            class="py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+    <section class="bg-containerBgGray">
+      <!-- Container -->
+      <div class="flex flex-col container mx-auto lg:flex-row px-6">
+        <!-- Info container -->
+        <div class="w-1/2 flex flex-col justify-center space-y-16 pt-24 mb-6">
+          <p class="text-6xl font-light text-medGray">
+            Project <br /><span
+              id="project-name"
+              class="font-bold text-darkGray capitalize"
+              >Lorum ipsum</span
+            >
+          </p>
+          <!-- Buttons container -->
+          <div class="flex space-x-4">
+            <button
+              id="decrease"
+              class="flex items-center justify-center h-14 w-14 bg-semiGray cursor-pointer hover:bg-hoverGray duration-300"
+            >
+              <img src="./images/elements/arrow-left.svg" alt="" />
+            </button>
+            <button
+              id="increase"
+              class="flex items-center justify-center h-14 w-14 bg-semiGray cursor-pointer hover:bg-hoverGray duration-300"
+            >
+              <img src="./images/elements/arrow-right.svg" alt="" />
+            </button>
+          </div>
+          <span
+            id="project-count"
+            class="tracking-verywide text-2xl text-medGray"
+          ></span>
+        </div>
+        <!-- Img container -->
+        <div class="w-full relative lg:w-1/2 overflow-hidden">
+          <!-- Img -->
+          <img
+            id="project-img"
+            src=""
+            alt=""
+            class="w-full max-h-180 object-cover hover:scale-110 duration-700"
+          />
+          <!-- Button -->
+          <a
+            id="view-project"
+            href="#"
+            class="absolute space-x-4 left-0 bottom-0 bg-lightGray py-8 pr-8 pl-4 uppercase text-darkGray tracking-verywide text-xs hover:bg-hoverGray duration-300"
+            >View project
+            <img
+              src="images/elements/arrow-right.svg"
+              alt=""
+              class="inline ml-4"
+          /></a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
