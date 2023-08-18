@@ -28,6 +28,9 @@ module.exports = {
       maxHeight: {
         180: '45rem',
       },
+      fontSize: {
+        '10xl': ['10rem', '10rem'],
+      },
     },
   },
   plugins: [],
