@@ -18,10 +18,41 @@
     <!-- Nav bar -->
     <nav class="sticky top-0 bg-white z-10">
       <!-- Container -->
-      <div class="container mx-auto flex justify-between p-6">
+      <div class="container mx-auto flex justify-between items-center p-6">
         <!-- Logo container -->
         <div>
-          <img src="./images/logo.svg" alt="logo" class="h-20" />
+          <a href="#"><img src="./images/logo.svg" alt="logo" class="h-20" /></a>
+        </div>
+        <!-- Mobile hamburger-menu container -->
+        <div class="flex flex-col space-y-2 lg:hidden cursor-pointer" id="hamburger-menu">
+          <span class="bg-black inline-block w-8 h-0.5"></span>
+          <span class="bg-black inline-block w-8 h-0.5"></span>
+          <span class="bg-black inline-block w-8 h-0.5"></span>
+        </div>
+        <!-- Mobile menu container -->
+        <div class="hidden z-20 fixed inset-0 bg-darkGray opacity-80 flex-col space-y-4 justify-center items-center" id="mobile-menu">
+          <div class="flex flex-col ml-[50%] mb-16 text-white text-2xl cursor-pointer" id="close">
+           X</div>
+          <a
+            href="#"
+            class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >Home</a
+          >
+          <a
+          href="#"
+          class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
+          >Projects</a
+        >
+        <a
+        href="./pages/about.html"
+        class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
+        >About</a
+      >
+      <a
+      href="#"
+      class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
+      >Contact</a
+    >
         </div>
         <!-- Menu container -->
         <div class="hidden lg:flex space-x-12 items-center">
@@ -390,20 +421,18 @@
             />
           </form>
 
-          <img
-            src="images/office/contact-form.jpg"
-            alt=""
-            class="col-span-12 lg:col-span-8 h-full"
-          />
+          <div class="col-span-12  h-96 lg:col-span-8 lg:h-auto bg-right bg-contact bac">
+
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <section class="bg-darkGray text-white p-16 mt-40">
-      <div class="container mx-auto flex flex-col space-y-10 items-center lg:items-start lg:flex-row lg:justify-between lg:space-y-0">
+    <section class="bg-darkGray text-white p-8 mt-40">
+      <div class="container mx-auto flex flex-col p-8 space-y-10 items-center lg:items-start lg:flex-row lg:justify-between lg:space-y-0">
         <!-- Logo -->
-        <img src="images/logo-white.svg" alt="" class="max-h-24" />
+        <img src="images/logo-white.svg" alt="" class="h-16" />
         <!-- Menu -->
         <ul class="flex flex-col space-y-3">
           <li class="font-bold">Menu</li>

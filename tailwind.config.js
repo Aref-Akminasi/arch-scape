@@ -31,6 +31,9 @@ module.exports = {
       fontSize: {
         '10xl': ['10rem', '10rem'],
       },
+      backgroundImage: () => ({
+        contact: "url('../images/office/contact-form.jpg')",
+      }),
     },
   },
   plugins: [],

@@ -5,6 +5,10 @@ const projectImg = document.getElementById('project-img');
 const projectName = document.getElementById('project-name');
 const viewProject = document.getElementById('view-project');
 const ourProjects = document.querySelectorAll('.project');
+const hamburgerMenu = document.getElementById('hamburger-menu');
+const mobileMenu = document.getElementById('mobile-menu');
+const close = document.getElementById('close');
+
 let projects;
 let currentProject = 1;
 
@@ -52,4 +56,13 @@ function updateProjects() {
   });
 }
 
+hamburgerMenu.addEventListener('click', () => {
+  mobileMenu.classList.remove('hidden');
+  mobileMenu.classList.add('flex');
+});
+
+close.addEventListener('click', () => {
+  mobileMenu.classList.add('hidden');
+  mobileMenu.classList.remove('flex');
+});
 getProjects();
