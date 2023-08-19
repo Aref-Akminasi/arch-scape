@@ -3,8 +3,260 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <link rel="icon" type="images/x-icon" href="../images/icon.svg" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="../js/about.js" defer></script>
+
+    <title>Arch Scape</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Nav bar -->
+    <nav class="sticky top-0 bg-white z-10">
+      <!-- Container -->
+      <div class="container mx-auto flex justify-between items-center p-6">
+        <!-- Logo container -->
+        <div>
+          <a href="#"
+            ><img src="../images/logo.svg" alt="logo" class="h-20"
+          /></a>
+        </div>
+        <!-- Mobile hamburger-menu container -->
+        <div
+          class="flex flex-col space-y-2 lg:hidden cursor-pointer"
+          id="hamburger-menu"
+        >
+          <span class="bg-black inline-block w-8 h-0.5"></span>
+          <span class="bg-black inline-block w-8 h-0.5"></span>
+          <span class="bg-black inline-block w-8 h-0.5"></span>
+        </div>
+        <!-- Mobile menu container -->
+        <div
+          class="hidden z-20 fixed inset-0 bg-darkGray opacity-80 flex-col space-y-4 justify-center items-center"
+          id="mobile-menu"
+        >
+          <div
+            class="flex flex-col ml-[50%] mb-16 text-white text-2xl cursor-pointer"
+            id="close"
+          >
+            <i class="fa-solid fa-x" style="color: #ffffff"></i>
+          </div>
+          <a
+            href="#"
+            class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >Projects</a
+          >
+          <a
+            href="./pages/about.html"
+            class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >About</a
+          >
+          <a
+            href="#"
+            class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >Contact</a
+          >
+        </div>
+        <!-- Menu container -->
+        <div class="hidden lg:flex space-x-12 items-center">
+          <!-- Item 1 -->
+          <a
+            href="#"
+            class="text-sm py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >Home</a
+          >
+
+          <!-- Item 2 -->
+          <a
+            href="#"
+            class="text-sm py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >Projects</a
+          >
+
+          <!-- Item 3 -->
+          <a
+            href="#"
+            class="text-sm py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >About</a
+          >
+
+          <!-- Item 4 -->
+          <a
+            href="#"
+            class="text-sm py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+    <section class="bg-containerBgGray">
+      <div
+        class="container mx-auto flex flex-col-reverse lg:flex-row justify-between py-8 px-6"
+      >
+        <!-- Content container -->
+        <div
+          class="w-full lg:w-1/2 lg:max-w-xl flex flex-col space-y-8 mr-4 mt-4 lg:mt-0"
+        >
+          <!-- Title -->
+          <h1 class="text-4xl lg:text-6xl text-medGray font-light">
+            Contact<br /><span class="text-darkGray font-bold">Information</span>
+          </h1>
+
+          <!-- Desc -->
+          <div class="flex flex-col space-y-2">
+            <!-- Desc Title -->
+            <h2 class="text-2xl lg:text-3xl text-medGray font-light">
+              Get in Touch with Us
+            </h2>
+            <p class="text-darkGray font-light">
+              We value open communication and collaboration. Whether you have a question about our services, need assistance with an ongoing project, or just want to share your thoughts, we're here to listen. Drop us a message below, and our dedicated team will get back to you at the earliest. Your insights and inquiries pave the way for mutual growth and understanding.
+            </p>
+          </div>
+
+          <!-- Button -->
+          <div>
+            <a
+              href="#"
+              class="inline-block bg-darkGray text-white py-8 pr-8 pl-4 uppercase tracking-verywide text-xs hover:bg-black duration-300"
+              >Visit us
+              <img
+                src="../images/elements/arrow-right-white.svg"
+                alt=""
+                class="inline ml-4"
+            /></a>
+          </div>
+        </div>
+
+        <!-- Img container -->
+        <div
+          class="w-full h-96 lg:w-1/2 lg:h-auto bg-contact bg-cover bg-no-repeat bg-center"
+        ></div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="bg-containerBgGray mt-40">
+      <div class="container mx-auto p-8">
+        <!-- Title -->
+        <p class="text-4xl lg:text-6xl font-light text-medGray">Contact Us</p>
+
+        <!-- Form section -->
+        <div class="grid grid-cols-12 gap-5 mt-8 lg:mt-20">
+          <form
+            action="#"
+            class="col-span-12 lg:col-span-4 flex flex-col justify-between gap-4"
+          >
+            <input
+              type="text"
+              placeholder="Name*"
+              class="w-full p-5 focus:outline-none bg-semiGray"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Phone Number"
+              class="w-full p-5 focus:outline-none bg-semiGray"
+            />
+            <input
+              type="email"
+              placeholder="Email*"
+              class="w-full p-5 focus:outline-none bg-semiGray"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Interested in*"
+              class="w-full p-5 focus:outline-none bg-semiGray"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Message*"
+              class="w-full p-5 focus:outline-none bg-semiGray"
+              required
+            />
+            <input
+              type="submit"
+              class="w-full p-5 focus:outline-none bg-darkGray text-white cursor-pointer hover:bg-black duration-300"
+            />
+          </form>
+
+          <div class="col-span-12  h-96 lg:col-span-8 lg:h-auto bg-right bg-contactForm">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+     <!-- Footer -->
+     <section class="bg-darkGray text-white p-8 mt-40">
+      <div class="container mx-auto flex flex-col p-8 space-y-10 items-center lg:items-start lg:flex-row lg:justify-between lg:space-y-0">
+        <!-- Logo -->
+        <img src="/images/logo-white.svg" alt="" class="h-16" />
+        <!-- Menu -->
+        <ul class="flex flex-col space-y-3">
+          <li class="font-bold">Menu</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <!-- Contacts -->
+        <ul class="flex flex-col space-y-3">
+          <li class="font-bold">Contacts</li>
+          <li class="flex items-center space-x-2">
+            <img src="/images/elements/location.svg" alt="" />
+            <span
+              >1234 Sample Street<br />
+              Austin Texas 78704</span
+            >
+          </li>
+          <li class="flex items-center space-x-2">
+            <img src="/images/elements/phone.svg" alt="" />
+            <span></span>
+            512.333.2222</span
+            >
+          </li>
+          <li class="flex items-center space-x-2">
+            <img src="/images/elements/email.svg" alt="" />
+            <span></span>
+            sampleemail@gmail.com</span
+            >
+          
+        </ul>
+
+        <!-- Social media -->
+        <ul class="flex flex-col space-y-3">
+          <li class="font-bold">Social Media</li>
+          <li class="flex flex-col items-center space-y-4 lg:flex-row lg:space-x-10 lg:space-y-0">
+            <a href="#"><img src="/images/elements/facebook.svg" alt=""></a>
+            <a href="#"><img src="/images/elements/twitter.svg" alt=""></a>
+            <a href="#"><img src="/images/elements/Linked-in.svg" alt=""></a>
+            <a href="#"><img src="/images/elements/pininterest.svg" alt=""></a>
+            
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
 </html>
+

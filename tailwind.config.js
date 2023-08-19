@@ -32,8 +32,9 @@ module.exports = {
         '10xl': ['10rem', '10rem'],
       },
       backgroundImage: () => ({
-        contact: "url('../images/office/contact-form.jpg')",
-        about: "url('../images/office/about.jpg')",
+        contactForm: "url('/images/office/contact-form.jpg')",
+        about: "url('/images/office/about.jpg')",
+        contact: "url('/images/office/contact.jpg')",
       }),
     },
   },
