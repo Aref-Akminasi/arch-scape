@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html'],
+  content: ['./**/*.html'],
   theme: {
     screens: {
       sm: '480px',
@@ -33,6 +33,7 @@ module.exports = {
       },
       backgroundImage: () => ({
         contact: "url('../images/office/contact-form.jpg')",
+        about: "url('../images/office/about.jpg')",
       }),
     },
   },

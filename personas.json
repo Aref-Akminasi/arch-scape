@@ -1,0 +1,47 @@
+[
+  {
+    "name": "François Dubois",
+    "func": "CEO and Chief Architect",
+    "image": "/images/personas/1.jpg"
+  },
+  {
+    "name": "Isabelle Leroux",
+    "func": "Head of Client Relations",
+    "image": "/images/personas/2.jpg"
+  },
+  {
+    "name": "Matthias Schneider",
+    "func": "Senior Project Manager",
+    "image": "/images/personas/3.jpg"
+  },
+  {
+    "name": "Sofia Mancini",
+    "func": "Lead Interior Designer",
+    "image": "/images/personas/4.jpg"
+  },
+  {
+    "name": "Elise van der Meer",
+    "func": "Landscape Architect",
+    "image": "/images/personas/5.jpg"
+  },
+  {
+    "name": "Klara Jónsdóttir",
+    "func": "Sustainability Specialist",
+    "image": "/images/personas/6.jpg"
+  },
+  {
+    "name": "Victor Sorin",
+    "func": "IT and Systems Administrator",
+    "image": "/images/personas/7.jpg"
+  },
+  {
+    "name": "Lena Müller",
+    "func": "Marketing and Public Relations Specialist",
+    "image": "/images/personas/8.jpg"
+  },
+  {
+    "name": "Natalia Kowalski",
+    "func": "Support and Human Resources Manager",
+    "image": "/images/personas/9.jpg"
+  }
+]
