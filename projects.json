@@ -1,42 +1,47 @@
 [
   {
     "name": "buildscope",
+    "desc": "A contemporary urban development focusing on sustainable design. It seamlessly integrates green spaces with high-rises, offering a fresh take on metropolitan living.",
     "images": [
-      "./images/projects/buildscope/1.jpg",
-      "./images/projects/buildscope/2.jpg",
-      "./images/projects/buildscope/3.jpg"
+      "/images/projects/buildscope/1.jpg",
+      "/images/projects/buildscope/2.jpg",
+      "/images/projects/buildscope/3.jpg"
     ]
   },
   {
     "name": "ecomoda",
+    "desc": "A forward-thinking retail space built for fashion. With its airy interiors and minimalistic design, ecomoda brings luxury and environment-consciousness together under one roof.",
     "images": [
-      "./images/projects/ecomoda/1.jpg",
-      "./images/projects/ecomoda/2.jpg",
-      "./images/projects/ecomoda/3.jpg"
+      "/images/projects/ecomoda/1.jpg",
+      "/images/projects/ecomoda/2.jpg",
+      "/images/projects/ecomoda/3.jpg"
     ]
   },
   {
     "name": "horizon",
+    "desc": "An avant-garde residential complex overlooking the city. Horizon merges comfort with modern design, boasting panoramic views, spacious layouts, and top-tier amenities.",
     "images": [
-      "./images/projects/horizon/1.jpg",
-      "./images/projects/horizon/2.jpg",
-      "./images/projects/horizon/3.jpg"
+      "/images/projects/horizon/1.jpg",
+      "/images/projects/horizon/2.jpg",
+      "/images/projects/horizon/3.jpg"
     ]
   },
   {
     "name": "sculpterra",
+    "desc": "An artistic masterpiece of landscape architecture. Sculpterra molds natural elements with human ingenuity, creating a harmonious blend of sculpture and earth, perfect for contemplation and inspiration",
     "images": [
-      "./images/projects/sculpterra/1.jpg",
-      "./images/projects/sculpterra/2.jpg",
-      "./images/projects/sculpterra/3.jpg"
+      "/images/projects/sculpterra/1.jpg",
+      "/images/projects/sculpterra/2.jpg",
+      "/images/projects/sculpterra/3.jpg"
     ]
   },
   {
     "name": "urbanplus",
+    "desc": "A mixed-use hub in the heart of the city. Urbanplus prioritizes efficient space utilization, offering residents, businesses, and visitors a dynamic and vibrant community experience.",
     "images": [
-      "./images/projects/urbanplus/1.jpg",
-      "./images/projects/urbanplus/2.jpg",
-      "./images/projects/urbanplus/3.jpg"
+      "/images/projects/urbanplus/1.jpg",
+      "/images/projects/urbanplus/2.jpg",
+      "/images/projects/urbanplus/3.jpg"
     ]
   }
 ]

@@ -16,8 +16,8 @@ async function getProjects() {
   const res = await fetch('/projects.json');
   const data = await res.json();
   projects = await data;
-  updateHeader(await projects);
-  updateProjects(await projects);
+  updateHeader();
+  updateProjects();
 }
 
 function updateHeader() {
