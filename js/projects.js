@@ -69,7 +69,7 @@ function updatePage() {
                 <!-- Button -->
       <div>
         <a
-          href="/pages/projects/${projects[i + idxShift].name}.html"
+          href="/pages/${projects[i + idxShift].name}.html"
           class="inline-block bg-lightGray text-darkGray py-8 pr-8 pl-4 uppercase tracking-verywide text-xs hover:bg-hoverGray duration-300"
           >Read more
           <img
