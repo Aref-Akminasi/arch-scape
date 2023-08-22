@@ -1,18 +1,5 @@
-const hamburgerMenu = document.getElementById('hamburger-menu');
-const mobileMenu = document.getElementById('mobile-menu');
-const close = document.getElementById('close');
 const gridContainer = document.getElementById('grid-container');
 let personas = [];
-
-hamburgerMenu.addEventListener('click', () => {
-  mobileMenu.classList.remove('hidden');
-  mobileMenu.classList.add('flex');
-});
-
-close.addEventListener('click', () => {
-  mobileMenu.classList.add('hidden');
-  mobileMenu.classList.remove('flex');
-});
 
 async function getPersonas() {
   const res = await fetch('../personas.json');

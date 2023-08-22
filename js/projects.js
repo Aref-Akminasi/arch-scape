@@ -1,6 +1,3 @@
-const hamburgerMenu = document.getElementById('hamburger-menu');
-const mobileMenu = document.getElementById('mobile-menu');
-const close = document.getElementById('close');
 const pageCount = document.getElementById('page-count');
 const increase = document.getElementById('increase');
 const decrease = document.getElementById('decrease');
@@ -8,16 +5,6 @@ const projectsContainer = document.getElementById('projects-container');
 let currentPage = 1;
 let totalPages = 0;
 let projects = [];
-
-hamburgerMenu.addEventListener('click', () => {
-  mobileMenu.classList.remove('hidden');
-  mobileMenu.classList.add('flex');
-});
-
-close.addEventListener('click', () => {
-  mobileMenu.classList.add('hidden');
-  mobileMenu.classList.remove('flex');
-});
 
 async function getProjects() {
   const res = await fetch('/projects.json');
@@ -47,7 +34,6 @@ decrease.addEventListener('click', () => {
 function updatePage() {
   projectsContainer.innerHTML = '';
   const idxShift = (currentPage - 1) * 3;
-  console.log(idxShift);
   for (let i = 0; i < 3; i++) {
     if (projects[i + idxShift]) {
       const project = document.createElement('div');
@@ -69,7 +55,7 @@ function updatePage() {
                 <!-- Button -->
       <div>
         <a
-          href="/pages/${projects[i + idxShift].name}.html"
+          href="./${projects[i + idxShift].name}.html"
           class="inline-block bg-lightGray text-darkGray py-8 pr-8 pl-4 uppercase tracking-verywide text-xs hover:bg-hoverGray duration-300"
           >Read more
           <img
