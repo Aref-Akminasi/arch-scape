@@ -10,7 +10,9 @@ let projects;
 let currentProject = 1;
 
 async function getProjects() {
-  const res = await fetch('../projects.json');
+  const res = await fetch(
+    'https://raw.githubusercontent.com/Aref-Akminasi/arch-scape/main/projects.json'
+  );
   const data = await res.json();
   projects = await data;
   updateHeader();

@@ -2,7 +2,9 @@ const gridContainer = document.getElementById('grid-container');
 let personas = [];
 
 async function getPersonas() {
-  const res = await fetch('../personas.json');
+  const res = await fetch(
+    'https://raw.githubusercontent.com/Aref-Akminasi/arch-scape/main/personas.json'
+  );
   const data = await res.json();
   personas = await data;
   addPersonas(await personas);
