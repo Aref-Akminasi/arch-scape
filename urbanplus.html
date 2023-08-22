@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="images/x-icon" href="/images/icon.svg" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="images/x-icon" href="./images/icon.svg" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,94 +18,83 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script src="/js/nav.js" defer></script>
+    <script src="./js/nav.js" defer></script>
 
     <title>Arch Scape</title>
   </head>
   <body>
-     <!-- Nav bar -->
-     <nav class="sticky top-0 bg-white z-10">
-        <!-- Container -->
-        <div class="container mx-auto flex justify-between items-center p-6">
-          <!-- Logo container -->
-          <div>
-            <a href="/index.html"
-              ><img src="../images/logo.svg" alt="logo" class="h-20"
-            /></a>
-          </div>
-          <!-- Mobile hamburger-menu container -->
-          <div
-            class="flex flex-col space-y-2 lg:hidden cursor-pointer"
-            id="hamburger-menu"
-          >
-            <span class="bg-black inline-block w-8 h-0.5"></span>
-            <span class="bg-black inline-block w-8 h-0.5"></span>
-            <span class="bg-black inline-block w-8 h-0.5"></span>
-          </div>
-          <!-- Mobile menu container -->
-          <div
-            class="hidden z-20 fixed inset-0 bg-darkGray opacity-80 flex-col space-y-4 justify-center items-center"
-            id="mobile-menu"
-          >
-            <div
-              class="flex flex-col ml-[50%] mb-16 text-white text-2xl cursor-pointer"
-              id="close"
-            >
-              <i class="fa-solid fa-x" style="color: #ffffff"></i>
-            </div>
-            <a
-              href="/index.html"
-              class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
-              >Home</a
-            >
-            <a
-              href="./projects.html"
-              class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
-              >Projects</a
-            >
-            <a
-              href="./about.html"
-              class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
-              >About</a
-            >
-            <a
-              href="./contact.html"
-              class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
-              >Contact</a
-            >
-          </div>
-          <!-- Menu container -->
-          <div class="hidden lg:flex space-x-12 items-center">
-            <!-- Item 1 -->
-            <a
-              href="/index.html"
-              class="text-sm py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
-              >Home</a
-            >
-  
-            <!-- Item 2 -->
-            <a
-              href="./projects.html"
-              class="text-sm py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray"
-              >Projects</a
-            >
-  
-            <!-- Item 3 -->
-            <a
-              href="./about.html"
-              class="text-sm py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
-              >About</a
-            >
-  
-            <!-- Item 4 -->
-            <a
-              href="./contact.html"
-              class="text-sm py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
-              >Contact</a
-            >
-          </div>
+    <!-- Nav bar -->
+    <nav class="sticky top-0 bg-white z-10">
+      <!-- Container -->
+      <div class="container mx-auto flex justify-between items-center p-6">
+        <!-- Logo container -->
+        <div>
+          <a href="./index.html"><img src="
+            ./images/logo.svg" alt="logo" class="h-20" /></a>
         </div>
-      </nav>
+        <!-- Mobile hamburger-menu container -->
+        <div class="flex flex-col space-y-2 lg:hidden cursor-pointer" id="hamburger-menu">
+          <span class="bg-black inline-block w-8 h-0.5"></span>
+          <span class="bg-black inline-block w-8 h-0.5"></span>
+          <span class="bg-black inline-block w-8 h-0.5"></span>
+        </div>
+        <!-- Mobile menu container -->
+        <div class="hidden z-20 fixed inset-0 bg-darkGray opacity-80 flex-col space-y-4 justify-center items-center" id="mobile-menu">
+          <div class="flex flex-col ml-[50%] mb-16 text-white text-2xl cursor-pointer" id="close">
+            <i class="fa-solid fa-x" style="color: #ffffff;"></i></div>
+          <a
+            href="./index.html"
+            class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >Home</a
+          >
+          <a
+          href="./projects.html"
+          class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
+          >Projects</a
+        >
+        <a
+        href="./about.html"
+        class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
+        >About</a
+      >
+      <a
+      href="./contact.html"
+      class="text-sm py-2 px-4 uppercase text-white tracking-verywide border-y border-white border-opacity-0 transition duration-300 hover:border-opacity-100"
+      >Contact</a
+    >
+        </div>
+        <!-- Menu container -->
+        <div class="hidden lg:flex space-x-12 items-center">
+          <!-- Item 1 -->
+          <a
+            href="./index.html"
+            class="text-sm py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray"
+            >Home</a
+          >
+
+          <!-- Item 2 -->
+          <a
+            href="./projects.html"
+            class="text-sm py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >Projects</a
+          >
+
+          <!-- Item 3 -->
+          <a
+            href="./about.html"
+            class="text-sm py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >About</a
+          >
+
+          <!-- Item 4 -->
+          <a
+            href="./contact.html"
+            class="text-sm py-2 px-4 uppercase text-darkGray tracking-verywide border-y border-darkGray border-opacity-0 transition duration-300 hover:border-opacity-100"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
 
      <!-- Header -->
      <section class="bg-containerBgGray">
@@ -118,7 +107,7 @@
           >
             <!-- Title -->
             <h1 class="text-4xl lg:text-6xl text-medGray font-light">
-              Project<br /><span class="text-darkGray font-bold">Urbanplus</span>
+              Project<br /><span class="text-darkGray font-bold capitalize">urbanplus</span>
             </h1>
         </div>
       </section>
@@ -126,14 +115,14 @@
       <!-- Project Section -->
       <section>
         <div class="container mx-auto p-4 grid grid-cols-12 gap-4 bg-containerBgGray">
-        <img src="/images/projects/urbanplus/2.jpg" alt="" class="col-span-12">
+        <img src="./images/projects/urbanplus/2.jpg" alt="" class="col-span-12">
         <div class="grid grid-cols-12 gap-4 col-span-12">
-            <img src="/images/projects/urbanplus/1.jpg" alt="" class="col-span-12 lg:col-span-5">
+            <img src="./images/projects/urbanplus/1.jpg" alt="" class="col-span-12 lg:col-span-5">
             <div class="col-span-12 lg:col-span-7 flex flex-col justify-center space-y-4">
-                <h2 class="text-3xl lg:text-5xl font-bold text-darkGray">Urbanplus</h2>
+                <h2 class="text-3xl lg:text-5xl font-bold text-darkGray capitalize">urbanplus</h2>
 <p class="text-darkGray font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque pariatur dolorem praesentium rem magni necessitatibus, ex laborum dolore similique vero dolorum ducimus harum nam obcaecati neque, sunt suscipit nesciunt? Inventore asperiores tempore, quos fugit magnam eos nihil, perferendis alias, aliquid harum doloremque est delectus facilis blanditiis nesciunt impedit similique temporibus! Modi ipsa tempore ipsum dolore corporis enim? Ipsa, nemo magni reiciendis cum, iste consequuntur tenetur dolore ab laborum, veniam exercitationem amet debitis. Repellat, perferendis nulla amet iste possimus maiores iure porro, voluptatem, tenetur fugit voluptate. <br> <br> Eaque sequi voluptatem exercitationem in rem laboriosam officiis repudiandae vitae adipisci labore illum harum et ipsam corrupti reprehenderit, facere animi reiciendis libero ex temporibus quam. Tempora, repellat aliquam. Totam ea mollitia, ex provident ipsam quae. Maiores eligendi ut nemo odio quo quae dolore laborum, ea sequi dignissimos doloremque quos harum velit! Numquam id adipisci beatae eos officia? Cum delectus, alias in veniam et assumenda perspiciatis.</p>            </div>
         </div>
-        <img src="/images/projects/urbanplus/3.jpg" alt="" class="col-span-12">
+        <img src="./images/projects/urbanplus/3.jpg" alt="" class="col-span-12">
 
     </div>
       </section>
@@ -143,11 +132,11 @@
      <section class="bg-darkGray text-white p-8 mt-40">
       <div class="container mx-auto flex flex-col p-8 space-y-10 items-center lg:items-start lg:flex-row lg:justify-between lg:space-y-0">
         <!-- Logo -->
-        <img src="/images/logo-white.svg" alt="" class="h-16" />
+        <img src="./images/logo-white.svg" alt="" class="h-16" />
         <!-- Menu -->
         <ul class="flex flex-col space-y-3">
           <li class="font-bold">Menu</li>
-          <li><a href="/index.html">Home</a></li>
+          <li><a href="./index.html">Home</a></li>
           <li><a href="./projects.html">Projects</a></li>
           <li><a href="./about.html">About</a></li>
           <li><a href="./contact.html">Contact</a></li>
@@ -156,20 +145,20 @@
         <ul class="flex flex-col space-y-3">
           <li class="font-bold">Contacts</li>
           <li class="flex items-center space-x-2">
-            <img src="/images/elements/location.svg" alt="" />
+            <img src="./images/elements/location.svg" alt="" />
             <span
               >1234 Sample Street<br />
               Austin Texas 78704</span
             >
           </li>
           <li class="flex items-center space-x-2">
-            <img src="/images/elements/phone.svg" alt="" />
+            <img src="./images/elements/phone.svg" alt="" />
             <span></span>
             512.333.2222</span
             >
           </li>
           <li class="flex items-center space-x-2">
-            <img src="/images/elements/email.svg" alt="" />
+            <img src="./images/elements/email.svg" alt="" />
             <span></span>
             sampleemail@gmail.com</span
             >
@@ -180,10 +169,10 @@
         <ul class="flex flex-col space-y-3">
           <li class="font-bold">Social Media</li>
           <li class="flex flex-col items-center space-y-4 lg:flex-row lg:space-x-10 lg:space-y-0">
-            <a href="#"><img src="/images/elements/facebook.svg" alt=""></a>
-            <a href="#"><img src="/images/elements/twitter.svg" alt=""></a>
-            <a href="#"><img src="/images/elements/Linked-in.svg" alt=""></a>
-            <a href="#"><img src="/images/elements/pininterest.svg" alt=""></a>
+            <a href="#"><img src="./images/elements/facebook.svg" alt=""></a>
+            <a href="#"><img src="./images/elements/twitter.svg" alt=""></a>
+            <a href="#"><img src="./images/elements/Linked-in.svg" alt=""></a>
+            <a href="#"><img src="./images/elements/pininterest.svg" alt=""></a>
             
           </li>
         </ul>

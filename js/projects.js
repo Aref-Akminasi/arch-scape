@@ -7,7 +7,9 @@ let totalPages = 0;
 let projects = [];
 
 async function getProjects() {
-  const res = await fetch('/projects.json');
+  const res = await fetch(
+    'https://raw.githubusercontent.com/Aref-Akminasi/arch-scape/main/projects.json'
+  );
   const data = await res.json();
   projects = await data;
   totalPages = Math.ceil(projects.length / 3);
@@ -40,9 +42,8 @@ function updatePage() {
       project.className =
         'flex flex-col bg-containerBgGray max-h-none lg:flex-row lg:max-h-120';
       project.innerHTML = `<!-- Img container -->
-        <img src="${
-          projects[i + idxShift].images[1]
-        }" alt="" class="w-full lg:w-1/2 h-96 lg:h-auto object-cover">
+        <img src="./${projects[i + idxShift].images[1]}"
+        alt="project-img" class="w-full lg:w-1/2 h-96 lg:h-auto object-cover">
         <!-- Content container -->
         <div class="flex justify-center items-center p-6 w-full lg:w-1/2">
             <div class="flex flex-col space-y-8 max-w-sm">
@@ -59,7 +60,7 @@ function updatePage() {
           class="inline-block bg-lightGray text-darkGray py-8 pr-8 pl-4 uppercase tracking-verywide text-xs hover:bg-hoverGray duration-300"
           >Read more
           <img
-            src="/images/elements/arrow-right.svg"
+            src="./images/elements/arrow-right.svg"
             alt=""
             class="inline ml-4"
         /></a>
