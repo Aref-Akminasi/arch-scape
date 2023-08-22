@@ -938,7 +938,7 @@ video {
 }
 
 .bg-contactForm {
-  background-image: url('/images/office/contact-form.jpg');
+  background-image: url('./images/office/contact-form.jpg');
 }
 
 .bg-cover {
