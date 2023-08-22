@@ -10,7 +10,7 @@ let projects;
 let currentProject = 1;
 
 async function getProjects() {
-  const res = await fetch('projects.json');
+  const res = await fetch('../projects.json');
   const data = await res.json();
   projects = await data;
   updateHeader();
