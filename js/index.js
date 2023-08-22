@@ -21,7 +21,7 @@ async function getProjects() {
 
 function updateHeader() {
   projectCount.innerText = `${currentProject}/${projects.length}`;
-  projectImg.src = projects[currentProject - 1].images[0];
+  projectImg.src = './' + projects[currentProject - 1].images[0];
   projectName.innerText = projects[currentProject - 1].name;
   viewProject.href = `pages/${projects[currentProject - 1].name}.html`;
 }
