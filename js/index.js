@@ -10,7 +10,7 @@ let projects;
 let currentProject = 1;
 
 async function getProjects() {
-  const res = await fetch('/projects.json');
+  const res = await fetch('projects.json');
   const data = await res.json();
   projects = await data;
   updateHeader();
@@ -21,7 +21,7 @@ function updateHeader() {
   projectCount.innerText = `${currentProject}/${projects.length}`;
   projectImg.src = projects[currentProject - 1].images[0];
   projectName.innerText = projects[currentProject - 1].name;
-  viewProject.href = `/pages/${projects[currentProject - 1].name}.html`;
+  viewProject.href = `pages/${projects[currentProject - 1].name}.html`;
 }
 
 decreaseBtn.addEventListener('click', () => {
@@ -49,7 +49,7 @@ function updateProjects() {
     const title = project.querySelector('p');
     title.innerText = projects[idx].name;
     const link = project.querySelector('a');
-    link.href = `/pages/${projects[idx].name}.html`;
+    link.href = `pages/${projects[idx].name}.html`;
   });
 }
 
