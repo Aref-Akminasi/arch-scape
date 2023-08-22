@@ -21,9 +21,9 @@ async function getProjects() {
 
 function updateHeader() {
   projectCount.innerText = `${currentProject}/${projects.length}`;
-  projectImg.src = `${projects[currentProject - 1].images[0]}`;
+  projectImg.src = `./${projects[currentProject - 1].images[0]}`;
   projectName.innerText = projects[currentProject - 1].name;
-  viewProject.href = `pages/${projects[currentProject - 1].name}.html`;
+  viewProject.href = `./pages/${projects[currentProject - 1].name}.html`;
 }
 
 decreaseBtn.addEventListener('click', () => {
@@ -47,11 +47,11 @@ increaseBtn.addEventListener('click', () => {
 function updateProjects() {
   ourProjects.forEach((project, idx) => {
     const img = project.querySelector(':scope > img');
-    img.src = `/${projects[idx].images[1]}`;
+    img.src = `./${projects[idx].images[1]}`;
     const title = project.querySelector('p');
     title.innerText = projects[idx].name;
     const link = project.querySelector('a');
-    link.href = `../pages/${projects[idx].name}.html`;
+    link.href = `./pages/${projects[idx].name}.html`;
   });
 }
 

@@ -34,8 +34,8 @@ module.exports = {
       },
       backgroundImage: () => ({
         contactForm: "url('/images/office/contact-form.jpg')",
-        about: "url('/images/office/about.jpg')",
-        contact: "url('/images/office/contact.jpg')",
+        about: "url('./images/office/about.jpg')",
+        contact: "url('./images/office/contact.jpg')",
       }),
     },
   },

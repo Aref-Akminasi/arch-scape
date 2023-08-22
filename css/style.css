@@ -930,11 +930,11 @@ video {
 }
 
 .bg-about {
-  background-image: url('/images/office/about.jpg');
+  background-image: url('./images/office/about.jpg');
 }
 
 .bg-contact {
-  background-image: url('/images/office/contact.jpg');
+  background-image: url('./images/office/contact.jpg');
 }
 
 .bg-contactForm {
